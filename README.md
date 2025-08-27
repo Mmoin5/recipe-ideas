@@ -5,6 +5,7 @@ It helps users search for recipes by ingredient or category, explore random reci
 
 ### 🚀 Live Demo
 
+[Recipe Finder App] (https://recipe-finder-mohammed.netlify.app)
 
 ### ✨ Features
 
