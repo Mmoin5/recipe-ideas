@@ -34,28 +34,51 @@ TheMealDB API for recipes
 
 ### 📂 Project Structure
 src/
+
  ├── components/
+ 
  │    ├── Header.jsx
+ 
  │    ├── SearchBar.jsx
+ 
  │    ├── RecipeCard.jsx
+ 
  │    ├── RecipeDetails.jsx
+ 
  │    └── RecipeModal.jsx
+ 
  │
+ 
  ├── pages/
+ 
  │    └── Home.jsx
+ 
  │
+ 
  ├── services/
+ 
  │    └── mealApi.js
+ 
  │
+ 
  ├── styles/
+ 
  │    ├── Header.css
+ 
  │    ├── SearchBar.css
+ 
  │    ├── RecipeCard.css
+ 
  │    ├── RecipeDetails.css
+ 
  │    ├── RecipeModal.css
+ 
  │    └── Home.css
+ 
  │
+ 
  ├── App.jsx
+ 
  └── index.js
 
 ### ⚙️ Setup & Installation
@@ -102,7 +125,8 @@ Random Meal
 
 https://www.themealdb.com/api/json/v1/1/random.php
 
-###🧑‍💻 Author
+### 🧑‍💻 Author
 
 Mohammed Moin Pasha
+
 📧 mmoinpasha500@gmail.com
