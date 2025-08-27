@@ -1,0 +1,79 @@
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.modal {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 700px;
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative;
+}
+
+.modal button {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.modal img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.modal h2 {
+    margin-top: 15px;
+    font-size: 1.6rem;
+}
+
+.modal h3 {
+    margin-top: 15px;
+    font-size: 1.2rem;
+}
+
+.modal ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.modal a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background: #d32f2f;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.modal a:hover {
+    background: #b71c1c;
+}
+
+/* Mobile modal fit */
+@media (max-width: 480px) {
+    .modal {
+        padding: 15px;
+    }
+
+    .modal h2 {
+        font-size: 1.3rem;
+    }
+
+    .modal h3 {
+        font-size: 1rem;
+    }
+}
